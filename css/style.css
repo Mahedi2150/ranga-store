@@ -23,11 +23,12 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
@@ -37,12 +38,13 @@ body {
 }
 .single-product {
   padding: 10px;
-  transition: 0.6s;
+  transition: 0.2s;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background: #f3f3f3;
 }
 .product-image {
   width: 150px;
